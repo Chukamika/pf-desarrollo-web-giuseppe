@@ -1,0 +1,27 @@
+//variables
+
+@import "../components/vars";
+@import "../components/mixin";
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a,
+a:active {
+    text-decoration: none;
+    color: $colorcomplementario;
+}
+
+body {
+    background-color: $colorcomplementario;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+}
+
+.navbar-toggler {
+    padding: 0px;
+}
